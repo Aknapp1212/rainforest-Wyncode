@@ -10,6 +10,7 @@ class UsersController < ApplicationController
       redirect_to root_path, notice: "Create user"
     else
       render action: 'new'
+    end
   end
 
   private
